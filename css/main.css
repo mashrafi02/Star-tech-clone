@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;  /* I didn't find the star tech font-family in google fonts */
+}
+
+body{
+    background: #F9FAFC;
+}
+
+ol,ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+
+/* ############################# navbar start here ############################### */
+/* ############################# navbar end here ############################### */
+
+
+/* ############################# banner start here ############################### */
+/* ############################# banner end here ############################### */
+
+
+/* ############################# featured-category start here ############################### */
+/* ############################# featured-category end here ############################### */
+
+
+/* ############################# featured-products start here ############################### */
+/* ############################# featured-products end here ############################### */
+
+
+/* ############################# description start here ############################### */
+/* ############################# description end here ############################### */
+
+
+/* ############################# footer start here ############################### */
+/* ############################# footer end here ############################### */
