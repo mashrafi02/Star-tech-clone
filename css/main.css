@@ -24,6 +24,29 @@ a{
 
 
 /* ############################# navbar start here ############################### */
+#navbar{
+    padding: 15px 0;
+    background: #081621;
+}
+
+.nav-wrapper{
+    display: grid;
+    grid-template-columns: 5fr 4fr;
+}
+
+.nav-wrapper .logo-search{
+    display: flex;
+    align-items: center;
+}
+
+.nav-wrapper .menu-btn{
+    display: flex;
+    align-items: center;
+}
+
+.nav-wrapper .menu-btn .menu i{
+    color: #ef4a23;
+}
 /* ############################# navbar end here ############################### */
 
 
