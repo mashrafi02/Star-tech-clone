@@ -32,6 +32,83 @@ a{
 
 
 /* ############################# featured-category start here ############################### */
+
+#feat-category .feat-heading{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+#feat-category .feat-heading h2{
+    font-size: 20px;
+    font-weight: 600;
+    font-family:"Inter", sans-serif;
+    line-height: 26px;
+    margin-bottom: 5px;
+}
+#feat-category .feat-heading p{
+    font-size: 15px;
+    font-weight: 400;
+    font-family:"Inter", sans-serif;
+    line-height: 26px;
+    color: #01132D;
+    margin-bottom: 25px;
+}
+
+#feat-category .feat-category-wrapper{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 10px;
+}
+#feat-category .feat-category-wrapper .item{
+    display: block;
+    padding: 15px 0;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    flex: 0 0 12.33%;
+    margin-bottom: 20px;
+    display: flex;
+}
+#feat-category .feat-category-wrapper .item a{
+    display: inline-block;
+}
+#feat-category .feat-category-wrapper .item a .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+#feat-category .feat-category-wrapper .item a p{
+    color:#01132D ;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ############################# featured-category end here ############################### */
 
 
