@@ -33,6 +33,9 @@ a{
 
 /* ############################# featured-category start here ############################### */
 
+#feat-category{
+    background: #f2f4f8;
+}
 #feat-category .feat-heading{
     text-align: center;
     margin: 0 auto;
