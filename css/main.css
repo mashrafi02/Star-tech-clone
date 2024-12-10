@@ -202,10 +202,9 @@ a{
     flex-wrap: wrap;
 }
 #feat-product .feat-product-wrapper .item{
-    
     background: #f2f4f8;
     max-width: 20%;
-    padding: 0 5px 10px;
+    padding: 10px 0px 0px 10px;
     border-radius: 5px;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
@@ -214,7 +213,7 @@ a{
 }
 #feat-product .feat-product-wrapper .item .top{
     position: relative;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
     background: #fff;
     text-align: center;
     padding: 25px 0;
@@ -289,18 +288,8 @@ a{
 
 #feat-product .feat-product-wrapper .item .bottom a:hover{
     color: #ef4a23;
+    text-decoration: underline;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /* ############################# featured-products end here ############################### */
 
