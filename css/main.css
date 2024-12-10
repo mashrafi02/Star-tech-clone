@@ -136,12 +136,16 @@ a{
     margin-bottom: 30px;
 }
 
+#items{
+    position: sticky;
+    top: 0;
+}
+
 .items-wrapper .items{
     height: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
 }
 
 .items-wrapper .items p{
@@ -266,6 +270,62 @@ a{
 }
 
 /* ############################# banner end here ############################### */
+
+
+/* ############################### laptop finder start here ############################## */
+.laptop-wrapper .items{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.laptop-wrapper .items .item{
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    position: relative;
+    padding-left: 90px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+.laptop-wrapper .items .item i{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    line-height: 50px;
+    margin-right: 20px;
+    background: var(--s-primary);
+    margin-left: 20px;
+    position: absolute;
+    top: 18px;
+    left: 0;
+}
+
+.laptop-wrapper .items .item h3{
+    color: #000;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+}
+
+.laptop-wrapper .items .item p{
+    color: #444;
+    font-size: 15px;
+    line-height: 26px;
+}
+
+#Laptop .notice{
+    text-align: center;
+    font-size: 14px;
+    color: #444;
+}
+/* ############################### laptop finder end here ############################## */
 
 
 /* ############################# featured-category start here ############################### */
