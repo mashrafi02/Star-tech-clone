@@ -55,6 +55,10 @@ a{
     column-gap: 45px;
 }
 
+.nav-wrapper .logo-search img{
+    cursor: pointer;
+}
+
 .nav-wrapper .logo-search form{
     position: relative;
 }
@@ -162,6 +166,7 @@ a{
 
 /* ############################# banner start here ############################### */
 .banner-wrapper{
+    background: #f2f4f8;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
