@@ -35,11 +35,11 @@ a{
 
 #feat-category{
     background: #f2f4f8;
+    padding-top: 50px;
 }
 #feat-category .feat-heading{
     text-align: center;
     margin: 0 auto;
-    margin-top: 50px;
 }
 #feat-category .feat-heading h2{
     font-size: 20px;
