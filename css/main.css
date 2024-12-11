@@ -143,6 +143,7 @@ a{
 #items{
     position: sticky;
     top: 0;
+    z-index: 999;
 }
 
 .items-wrapper .items{
@@ -616,4 +617,222 @@ a{
 
 
 /* ############################# footer start here ############################### */
+#footer{
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: #fff;
+    background: var(--s-hf-bg);
+}
+
+.footer-wrapper{
+    display: grid;
+    grid-template-columns: 3fr 6fr 3fr;
+    justify-content: start;
+    column-gap: 50px;
+}
+
+.footer-wrapper .support h2{
+    color: var(--s-f-c2);
+    margin-bottom: 30px;
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    line-height: 20px;
+}
+
+.footer-wrapper .support .item{
+    max-width: 290px;
+    display: flex;
+    column-gap: 12px;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    border: 1px solid #444;
+    border-radius: 40px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.footer-wrapper .support .item:hover{
+    border: 1px solid var(--s-primary-dark);
+}
+
+.footer-wrapper .support .item i{
+    font-size: 24px;
+}
+
+.fa-location-dot{
+    margin-right: 6px;
+}
+
+.footer-wrapper .support .item p{
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--s-tertiary);
+    margin-left: 6px;
+}
+
+.footer-wrapper .support .item strong{
+    color: var(--s-primary);
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: normal;
+    margin-left: 6px;
+}
+
+.footer-wrapper .support .item .hr-line{
+    width: 1px;
+    height: 40px;
+    background: var(--s-f-c1);
+}
+
+.footer-wrapper .about-us h2{
+    color: var(--s-f-c2);
+    margin-bottom: 30px;
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    line-height: 20px;
+}
+
+.footer-wrapper .about-us .links{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    justify-content: start;
+    column-gap: 50px;
+}
+
+.footer-wrapper .about-us .links ul li a{
+    display: inline-block;
+    color: var(--s-tertiary);
+    font-size: 14px;
+    white-space: nowrap;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.footer-wrapper .about-us .links ul li a:hover{
+    text-decoration: underline;
+    color: var(--s-primary-dark);
+}
+
+.footer-wrapper .about-us .links ul:last-child{
+    margin-left: 50px;
+}
+
+.footer-wrapper .stay-connected{
+    justify-self: end;
+}
+
+.footer-wrapper .stay-connected h2{
+    color: var(--s-f-c2);
+    margin-bottom: 30px;
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    line-height: 20px;
+}
+
+.footer-wrapper .stay-connected h3{
+    color: var(--s-f-c2);
+    font-weight: normal;
+    margin-bottom: 5px;
+    font-size: 14px;
+    line-height: 26px
+}
+
+.footer-wrapper .stay-connected p{
+    max-width: 267px;
+    color: var(--s-tertiary);
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 26px;
+}
+
+.footer-wrapper .stay-connected span{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: var(--s-tertiary);
+    font-size: 14px;
+}
+
+.footer-wrapper .stay-connected a{
+    font-size: 14px;
+    color: var(--s-primary-dark);
+}
+
+.footer-wrapper .stay-connected a:hover{
+    text-decoration: underline;
+}
+
+#footer .line{
+    height: 1px;
+    background: var(--s-tertiary);
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#footer .media-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer .media-links .store{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 20px;
+}
+
+#footer .media-links .store p{
+    color: var(--s-tertiary);
+    font-size: 12px;
+    line-height: 1.15;
+}
+
+#footer .media-links .store img{
+    border: 1px solid var(--s-tertiary);
+    border-radius: 5px;
+    padding: 3px;
+}
+
+#footer .media-links .store img:hover{
+    border: 1px solid #fff;
+}
+
+#footer .media-links .media i{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    font-size: 24px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#footer .media-links .media i:hover{
+    background: var(--s-secondary);
+}
+
+#footer .line-2{
+    height: 1px;
+    background: var(--s-tertiary);
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+#footer .copyright p{
+    color: var(--s-tertiary);
+    font-size: 12px;
+    line-height: 1.15;
+}
 /* ############################# footer end here ############################### */
